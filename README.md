@@ -29,7 +29,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-<img src="images/info.png" alt="Logo" width="750" height="500">
+<img src="images/info.png" alt="Logo" width="750" height="500" align="center" >
 
 
 <!-- USAGE EXAMPLES -->
