@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    tools:context=".MenuActivity">
+
+
+    <ImageView
+        android:id="@+id/header"
+        android:layout_width="500dp"
+        android:layout_height="500dp"
+        android:layout_margin="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="24dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/style_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.367" />
+
+    <TextView
+        android:id="@+id/toExit"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg"
+        android:clickable="true"
+        android:foreground="?attr/selectableItemBackground"
+        android:paddingTop="10dp"
+        android:paddingBottom="30dp"
+        android:text="EXIT"
+        android:textAlignment="center"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toBottomOf="@+id/header"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/toInstagram"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg"
+        android:clickable="true"
+        android:foreground="?attr/selectableItemBackground"
+        android:paddingTop="10dp"
+        android:paddingBottom="30dp"
+        android:text="INSTAGRAM"
+        android:textAlignment="center"
+        android:textSize="55sp"
+        app:layout_constraintBottom_toTopOf="@+id/toExit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/toHistory"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg"
+        android:clickable="true"
+        android:foreground="?attr/selectableItemBackground"
+        android:paddingTop="10dp"
+        android:paddingBottom="30dp"
+        android:text="Statictics"
+        android:textAlignment="center"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toTopOf="@+id/toInstagram"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/mainText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+
+        android:fontFamily="@font/metamorphous"
+        android:paddingTop="10dp"
+        android:text="Menu"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toTopOf="@+id/toHistory"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/header"
+        tools:ignore="Deprecated" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
