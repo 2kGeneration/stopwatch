@@ -11,7 +11,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/2kGeneration/stopwatch)">
-    <img src="images/logo.png" alt="Logo" width="300" height="250">
+    <img src="images/logo.png" alt="Logo" width="300" height="300">
   </a>
 
   <h3 align="center">Aesthetic clock</h3>
@@ -29,7 +29,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-<img src="images/info.png" alt="Logo" width="1100" height="600">
+<img src="images/info.png" alt="Logo" width="750" height="500">
 
 
 <!-- USAGE EXAMPLES -->
