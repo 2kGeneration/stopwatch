@@ -1,12 +1,5 @@
 <a name="readme-top"></a>
 
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-
-
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
@@ -29,7 +22,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-<img src="images/info.png" alt="Logo" width="750" height="500" align="center" >
+<img src="images/info.png" alt="Logo" width="850" height="450" align="center" >
 
 
 <!-- USAGE EXAMPLES -->
@@ -45,16 +38,11 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 <!-- ROADMAP -->
 ## Roadmap
+- [x] Add Splash Activity
+- [ ] Add statistics
+<img src="images/comingsoon.png" alt="Logo" width="200" height="300">
 
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-    - [ ] Chinese
-    - [ ] Spanish
 
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
